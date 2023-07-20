@@ -2,25 +2,29 @@
     margin:0;
     padding:0;
 }
-/* this is nav-container section */
+          /* this is nav-container section */
 .nav-container{
     display:flex;
-    justify-content:space-around;
+    justify-content:space-between;
     margin-top:20px;
     margin-bottom:20px;
     align-items: center;
 }
 .logo-container{
     display:flex;
-    justify-content:start;
+    font-size:26px;
+    align-items:center;
 }
 .img-container{
      width:50px;
-
+     padding-top:40px;
+}
+.nav-title{
+      
 }
 .gamer{
     color:rgb(241, 66, 125);
-
+    
 }
 .nav-container ul{
     list-style:none;
@@ -28,6 +32,7 @@
     gap:20px;
     font-size:15px;
     font-weight:500;
+    padding-right:250px;
 }
 .follow{
     border-radius:5px;
@@ -37,13 +42,13 @@
     font-size:10px;
 }
 
-/* this is header-container section */
+             /* this is header-container section */
 
 .header-container{
     display:flex;
     justify-content:space-around;
     height:500px;
-    background-color:rgb(243, 236, 237);
+    background-color:rgb(248, 244, 245);
 
 }
 .kids-club img{
@@ -53,7 +58,7 @@
 }
 .play-container{
     margin-top:150px;
-
+    background-image:url(./images/Group\ 14.png);
 }
 .play{
     font-size:32px;
@@ -88,25 +93,22 @@
     margin-left:16px;
 }
 
-/* this is online gamer section */
+             /* this is online gamer section */
 
 .online-games-container{
     text-align:center;
     padding-top:48px;
-    padding-bottom:32px;
-}
-.online-games-container h1{
-    font-size:42px;
-    margin-bottom:24px;
+    padding-bottom:20px;
 }
 .funny-videos{
     color:rgb(183, 43, 226);
 }
 .img-container{
     display:flex;
-    gap:50px;
-    margin-left:200px;
-    margin-right:100px;
+    gap:30px;
+    align-items:center;
+    margin:0 320px;
+    padding-bottom:48px;
 }
 .img-container img{
     width:200px;
@@ -129,11 +131,12 @@
 }
 .annversary-img{
     height:60%;
-    margin-left:100px;
+    width:60px;
+    padding-top:32px;
+    margin-left:90px;
 }
 .anualy-img{
     position:relative;
-    margin-top:0;
     bottom:200px;
 }
 
@@ -149,11 +152,6 @@
     margin-top: 32px;
     margin-bottom: 48px;
 }
-
-
-
-
-
 
 /* this is footer section */
 
@@ -205,10 +203,6 @@
     header {
          padding:20px;
     }
-    /* .nav-container,.logo-container,.img-container,
-    .header-container,.privacy-container,.support-container,
-    .gamer-container,.img-description,.img-title, */
-    /* .play-instantly-container{ */
 
     .nav-container,.online-games-container,.img-container,.play-instantly-container{
         flex-direction:column ;
